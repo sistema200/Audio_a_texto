@@ -20,3 +20,16 @@ Ejecuta el Programa
 ```bash
 ./start.sh
 ```
+> [!WARNING]
+> **Solo funciona con archivos de audio WAV.**
+>
+> Puedes usar FFmpeg para convertir un archivo a WAV:
+>
+> ```bash
+> sudo apt install ffmpeg
+> ```
+> ```bash
+> ffmpeg -i audio.mp3 audio.wav
+> ```
+
+
