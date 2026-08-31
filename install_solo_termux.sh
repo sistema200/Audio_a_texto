@@ -12,5 +12,5 @@ deactivate
 echo 'source Convertidor/bin/activate
 python audio_a_texto.py
 deactivate' > start.sh
-
 chmod +x start.sh
+mkdir transcrision
