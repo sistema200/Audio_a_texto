@@ -12,9 +12,13 @@ Entra a la carpeta
 ```bash
 cd Audio_a_texto
 ```
-Ejecuta el instalador
+Ejecuta el instalador En linux
 ```bash
 bash ./install.sh
+```
+En Termux
+```bash
+bash ./install_solo_termux.sh
 ```
 Ejecuta el Programa
 ```bash
