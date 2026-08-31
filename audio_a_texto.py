@@ -33,7 +33,7 @@ try:
    print("🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉")
 
 except FileNotFoundError:
-    print(f"Achivo no encontrado o no se pudo creal el .txt {filename} 😰")
+    print(f"Achivo no encontrado {filename} o no se pudo creal el .txt 😰")
 except ValueError as e:
     print(f"Error con el achivo: {e} 🙁")
 except Exception as e:
