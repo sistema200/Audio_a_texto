@@ -5,7 +5,7 @@ try:
     filename = input("Ruta y nombre del 💿achivo.wav: ")
     nombre_a = input("Nombre a 💾guardar: ")
     numero = random.randint(10, 99)
-    output_file = f"/data/data/com.termux/files/home/casa/A00/{nombre_a}_{numero}.txt"
+    output_file = f"transcrision/{nombre_a}_{numero}.txt"
 
     r = sr.Recognizer()
 except KeyboardInterrupt:
