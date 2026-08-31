@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 pkg update -y
-pkg install python -y
+pkg install python flac -y
 
 python -m venv Convertidor
 source Convertidor/bin/activate
